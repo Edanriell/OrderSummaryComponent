@@ -2,8 +2,8 @@
 	"name": "client",
 	"version": "0.0.0",
 	"scripts": {
-		"start:dev": "ng",
-		"start:start": "ng serve",
+		"start:ng": "ng",
+		"start:dev": "ng serve",
 		"start:build": "ng build",
 		"start:watch": "ng build --watch --configuration development",
 		"start:test": "ng test",
