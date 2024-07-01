@@ -1,8 +1,32 @@
 .main {
-	background: indianred;
+	background: var(--husky);
 	min-width: 100%;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position: relative;
+}
+
+.wave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.wave--size--small {
+	display: block;
+
+	@media (width >= 1440px) {
+		display: none;
+	}
+}
+
+.wave--size--large {
+	display: none;
+
+	@media (width >= 1440px) {
+		display: block;
+	}
 }
