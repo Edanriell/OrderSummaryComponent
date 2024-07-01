@@ -29,7 +29,7 @@
 								"input": "public"
 							}
 						],
-						"styles": ["src/styles.less"],
+						"styles": ["src/app/styles/styles.less"],
 						"scripts": [],
 						"server": "src/main.server.ts",
 						"prerender": true,

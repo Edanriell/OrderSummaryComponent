@@ -2,7 +2,7 @@
 	"name": "client",
 	"version": "0.0.0",
 	"scripts": {
-		"start:ng": "ng",
+		"start:dev": "ng",
 		"start:start": "ng serve",
 		"start:build": "ng build",
 		"start:watch": "ng build --watch --configuration development",
@@ -22,7 +22,9 @@
 		"@angular/router": "^18.0.0",
 		"@angular/ssr": "^18.0.6",
 		"express": "^4.18.2",
+		"gsap": "^3.12.5",
 		"rxjs": "~7.8.0",
+		"sanitize.css": "^13.0.0",
 		"tslib": "^2.3.0",
 		"zone.js": "~0.14.3"
 	},
@@ -39,6 +41,8 @@
 		"karma-coverage": "~2.2.0",
 		"karma-jasmine": "~5.1.0",
 		"karma-jasmine-html-reporter": "~2.1.0",
+		"less": "^4.2.0",
+		"less-loader": "^12.2.0",
 		"prettier": "^3.3.2",
 		"typescript": "~5.4.2"
 	}
