@@ -66,6 +66,8 @@
 	text-decoration-skip-ink: none;
 	color: var(--violet-glow);
 	margin-left: auto;
+	transition: color 0.25s cubic-bezier(0.42, 0, 0.58, 1);
+	will-change: color;
 
 	&::after {
 		content: "";
@@ -74,6 +76,25 @@
 		width: 100%;
 		height: 0.15rem;
 		background: currentColor;
+		opacity: 1;
+		transition: opacity 0.25s cubic-bezier(0.42, 0, 0.58, 1);
+		will-change: opacity;
+	}
+
+	&:hover {
+		color: var(--medium-slate-blue);
+	}
+
+	&:focus {
+		color: var(--medium-slate-blue);
+	}
+
+	&:focus::after {
+		opacity: 0;
+	}
+
+	&:hover::after {
+		opacity: 0;
 	}
 
 	@media (width >= 768px) {
