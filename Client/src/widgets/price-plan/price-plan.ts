@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
 	selector: "price-plan",
@@ -6,4 +6,7 @@ import { Component } from "@angular/core";
 	templateUrl: "./price-plan.html",
 	styleUrl: "./price-plan.less"
 })
-export class PricePlan {}
+export class PricePlan {
+	@Input({ required: true }) pricePlanType: string = "";
+	@Input({ required: true }) pricePlanPrice: string = "";
+}
