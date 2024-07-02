@@ -1,0 +1,7 @@
+@if (linkType === "button") {
+	<a [href]="linkHref" [style]="styles" class="link link--type--button">{{ linkText }}</a>
+} @else if (linkType === "ghost") {
+	<div class="link link--type--ghost">
+		<a [href]="linkHref" [style]="styles">{{ linkText }}</a>
+	</div>
+}

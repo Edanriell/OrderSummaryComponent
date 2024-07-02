@@ -68,9 +68,7 @@
 		<price-plan [pricePlanPrice]="'$59.99/year'" [pricePlanType]="'Annual Plan'" />
 	</div>
 	<footer class="order-summary-card__footer">
-		<a class="link link--type--button" href="#">Proceed to Payment</a>
-		<div class="link link--type--ghost">
-			<a href="#">Cancel Order</a>
-		</div>
+		<custom-link linkHref="#" linkText="Proceed to Payment" linkType="button" />
+		<custom-link linkHref="#" linkText="Cancel Order" linkType="ghost" />
 	</footer>
 </article>
