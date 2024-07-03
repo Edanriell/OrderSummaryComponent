@@ -1,3 +1,3 @@
 # OrderSummaryComponent
 
-![OrderSummaryComponent](https://github.com/Edanriell/OrderSummaryComponent/blob/develop/image.png?raw=true)
+![OrderSummaryComponent](https://github.com/Edanriell/OrderSummaryComponent/blob/develop/image.jpg?raw=true)
